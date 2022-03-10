@@ -36,6 +36,13 @@ function getCss(theme: string, fontSize: string) {
         font-weight: bold;
         src: url(data:font/woff2;charset=utf-8;base64,${bold}) format('woff2');
     }
+    
+    @font-face {
+        font-family: 'Noto Sans SC';
+        font-style:  normal;
+        font-weight: medium;
+        src: url(data:font/woff2;charset=utf-8;base64,${noto}) format('woff2');
+    }
 
     @font-face {
         font-family: 'Vera';
